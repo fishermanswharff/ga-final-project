@@ -1,0 +1,37 @@
+{
+  "build_systems": 
+  [
+    {
+      "cmd":
+      [
+        "ant",
+        "push",
+        "-f",
+        "${project_path:${folder}}/build.xml"
+      ],
+      "name": "GA Final Push Origin",
+      "selector": "source.java"
+    }
+  ],
+  "folders":
+  [
+    {
+      "name": "Final Project Folder",
+      "path": "/Users/jason/Documents/WebDevImmersive/Projects/Final",
+      "file_exclude_patterns": [".gitingore"]
+    },
+    {
+      "name": "Code Library",
+      "path": "/Users/jason/Documents/UI"
+    },
+    {
+      "name": "Angular Repo",
+      "path": "/Users/jason/Documents/WebDevImmersive/Projects/week9/ngrepo"
+    },
+    {
+      "name": "ngSandbox",
+      "path": "/Users/jason/Documents/WebDevImmersive/Projects/ngsandbox"
+    }
+  ]
+
+}
