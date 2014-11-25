@@ -58,6 +58,7 @@
 
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
+    <script src="bower_components/tincan/build/tincan.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-aria/angular-aria.js"></script>
@@ -67,64 +68,19 @@
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
-    <script src="bower_components/tincan/build/tincan-min.js"></script>
-    <script src="bower_components/tincan/build/tincan.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
-    <script src="scripts/app.js"></script>
+    <script src="scripts/services/TinCanService.js"></script>
+    <script src="scripts/App.js"></script>
+    <script src="scripts/Routes.js"></script>
+    <script src="scripts/controllers/MainController.js"></script>
+    <script src="scripts/factories/MainFactory.js"></script>
+    <script src="scripts/services/MainService.js"></script>
+    <script src="scripts/services/TraceService.js"></script>
     <script src="scripts/controllers/main.js"></script>
     <script src="scripts/controllers/about.js"></script>
     <!-- endbuild -->
-    <script type="text/javascript">
-      var trace = function(){ for(var i = 0; i < arguments.length; i++){ console.log(arguments[i]); } };
-      var tincan = new TinCan (
-      {
-        recordStores: 
-        [
-          {
-            endpoint: "https://cloud.scorm.com/tc/public/",
-            username: "fishermanswharff@mac.com",
-            password: "Rolla@1878",
-            allowFail: false
-          }
-        ]
-      });
-
-      tincan.getStatements({
-        // 'params' is passed through to TinCan.LRS.queryStatements
-        params: {
-          since: "2013-08-29"
-        },
-        callback: function (err, result) {
-          // 'err' will be null on success
-          if (err !== null) {
-              // handle error
-              return;
-          }
-          // handle success, 'result' is a TinCan.StatementsResult object
-          result.statements.forEach(function(item,index){
-            trace(item);
-          });
-          // trace(result.statements.length);
-        }
-      });
-
-      /*
-      tincan.sendStatement({
-        actor: {
-          mbox: "mailto:info@tincanapi.com"
-        },
-        verb: {
-          id: "http://adlnet.gov/expapi/verbs/attempted"
-        },
-        target: {
-          id: "http://rusticisoftware.github.com/TinCanJS"
-        }
-      });
-      */
-
-    </script>
   </body>
 </html>
