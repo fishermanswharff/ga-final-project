@@ -1,0 +1,8 @@
+Users
+  Roles: 
+    student
+    teacher
+    admin
+
+    Students can take courses
+    enroll themselves in courses

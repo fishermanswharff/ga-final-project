@@ -18,17 +18,12 @@ angular.module('MainController').controller('MainCtrl', function($scope,trace,ti
       limit: 100
     },
     callback: function (err, result) {
-      // 'err' will be null on success
       if (err !== null) {
           trace(err);
-          // handle error
           return;
       }
-      // $scope.statements = result.statements;
       angular.copy(result,$scope.result);
-      // handle success, 'result' is a TinCan.StatementsResult object
       $scope.$apply();
-      // trace($scope.result);
     }
   });
 });
