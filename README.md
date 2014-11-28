@@ -7,6 +7,7 @@ The LMS provides some basic activities:
 * Reading
 * Viewing a video
 * Discussion Forum
+* Instant Messenger with other logged-in users
 * Quiz
 
 This is a prototype/proof-of-concept to fulfill the 3rd and final project for General Assembly's Web Development Immersive.
