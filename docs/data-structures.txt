@@ -4,5 +4,21 @@ Users
     teacher
     admin
 
-    Students can take courses
-    enroll themselves in courses
+has_many: courses
+
+Students can take courses
+enroll themselves in courses
+
+Course: 
+  attributes: {
+    startdate: datetime,
+    enddate: datetime,
+    name: string,
+    coursenumber: uid,
+    status: enum [dormant,in-progress,complete]
+  }
+  children: {
+    Activities: {}
+  }
+  
+}
