@@ -19,20 +19,25 @@ Course:
     status: enum [dormant,in-progress,complete]
   }
   children: {
-    Enrolled User: {}
-    Teacher: {}, 
-    module: {
-      Lessons: {},
-      Content: {},
-      Tests: {
-        External service???,
-      },
-      Exercises: {}
-    }
-    assignments: {},
+    has_many: users
+    has_many: modules 
+    has_many: assignments  
     forum: {},
     chat: {},
   }
-  
 
+Module: {
+  Lessons: {},
+  Content: {},
+  Tests: {
+    External service???,
+  },
+  Exercises: {}
+}
 
+Assignment: {
+  name: string,
+  date_due: datetime,
+  belongs_to: user[:teacher]
+  belongs_to: user[:student] through teachers
+}
