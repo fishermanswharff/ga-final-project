@@ -1,3 +1,5 @@
+"KISS"
+
 User:
   attributes: {
     role: enum [student, teacher, admin]
@@ -17,5 +19,20 @@ Course:
     status: enum [dormant,in-progress,complete]
   }
   children: {
-    Activities: {}
+    Enrolled User: {}
+    Teacher: {}, 
+    module: {
+      Lessons: {},
+      Content: {},
+      Tests: {
+        External service???,
+      },
+      Exercises: {}
+    }
+    assignments: {},
+    forum: {},
+    chat: {},
   }
+  
+
+
