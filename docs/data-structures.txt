@@ -1,13 +1,12 @@
-Users
-  Roles: 
-    student
-    teacher
-    admin
-
-has_many: courses
-
-Students can take courses
-enroll themselves in courses
+User:
+  attributes: {
+    role: enum [student, teacher, admin]
+    Students can take courses,
+    enroll themselves in courses,
+  }
+  children: {
+    has_many: courses,
+  }
 
 Course: 
   attributes: {
@@ -20,5 +19,3 @@ Course:
   children: {
     Activities: {}
   }
-  
-}
