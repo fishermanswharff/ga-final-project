@@ -22,4 +22,3 @@ This is a prototype/proof-of-concept to fulfill the 3rd and final project for Ge
 * Faker
 * Rails Byebug
 * Rails Pry
-* 

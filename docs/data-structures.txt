@@ -53,3 +53,11 @@ Quiz: {
 
   }
 }
+
+Content: {
+  
+}
+
+Lesson: {
+  
+}
