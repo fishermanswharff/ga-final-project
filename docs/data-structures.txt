@@ -27,17 +27,29 @@ Course:
   }
 
 Module: {
-  Lessons: {},
-  Content: {},
-  Tests: {
-    External service???,
-  },
-  Exercises: {}
+  attributes: {},
+  children: {
+    Lesson: {},
+    Content: {},
+    Quiz: {
+      External service???,
+    },
+    Exercises: {}
+  }
 }
 
 Assignment: {
-  name: string,
-  date_due: datetime,
-  belongs_to: user[:teacher]
-  belongs_to: user[:student] through teachers
+  attributes: {
+    name: string,
+    date_due: datetime,
+    belongs_to: user[:teacher]
+    belongs_to: user[:student] through: user[:teachers]
+  },
+  children: {}
+}
+
+Quiz: {
+  attributes: {
+
+  }
 }
