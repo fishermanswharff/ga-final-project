@@ -519,6 +519,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/jason/Documents/WebDevImmersive/Projects/Final/api/Gemfile",
+			"settings":
+			{
+				"buffer_size": 380,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "GA Final Push Origin",
 	"command_palette":
@@ -616,9 +624,13 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/jason/Documents/WebDevImmersive/Projects/Final/api"
 	],
 	"file_history":
 	[
+		"/Users/jason/Documents/WebDevImmersive/Projects/Final/docs/data-structures.txt",
+		"/Users/jason/Documents/WebDevImmersive/Projects/Final/api/Gemfile",
+		"/Users/jason/Documents/WebDevImmersive/Projects/Final/README.md",
 		"/Users/jason/Documents/WebDevImmersive/Projects/Final/TinCanJS/app/scripts/controllers/main.js",
 		"/Users/jason/Documents/WebDevImmersive/Projects/Final/TinCanJS/app/scripts/controllers/about.js",
 		"/Users/jason/Documents/WebDevImmersive/Projects/Final/TinCanJS/app/scripts/App.js",
@@ -743,10 +755,7 @@
 		"/Users/jason/Documents/WebDevImmersive/Projects/week8/ngrepo/demo7/templates/home.html",
 		"/Users/jason/Documents/WebDevImmersive/Projects/week8/ngrepo/demo7/templates/about.html",
 		"/Users/jason/Documents/WebDevImmersive/Projects/ngsandbox/app/styles/main.scss",
-		"/Users/jason/Documents/UI/javascript/AngularJS-OReilly/index.html",
-		"/Users/jason/Documents/UI/javascript/AngularJS-OReilly/js/app/MainChapterNav.js",
-		"/Users/jason/Documents/WebDevImmersive/Projects/week8/ngrepo/demo6/index.html",
-		"/Users/jason/Documents/WebDevImmersive/Projects/week8/ngrepo/exercise6/js/factories/TitleFactory.js"
+		"/Users/jason/Documents/UI/javascript/AngularJS-OReilly/index.html"
 	],
 	"find":
 	{
@@ -983,6 +992,40 @@
 	"groups":
 	[
 		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/jason/Documents/WebDevImmersive/Projects/Final/api/Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								95
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
 			"sheets":
 			[
 			]
@@ -1005,11 +1048,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1021,7 +1071,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 205.0
+		"height": 180.0
 	},
 	"output.find_results":
 	{
@@ -1161,7 +1211,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 203.0,
+	"side_bar_width": 223.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
