@@ -55,6 +55,9 @@ Quiz: {
 }
 
 Content: {
+  name: string,
+  type: string,
+  url: string,
   
 }
 

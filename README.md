@@ -16,6 +16,7 @@ This is a prototype/proof-of-concept to fulfill the 3rd and final project for Ge
 
 # Installed Gems:
 * Rails API
+* Rspec
 * CORS
 * bcrypt
 * Factory Girl
