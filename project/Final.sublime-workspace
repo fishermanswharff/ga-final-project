@@ -519,14 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/jason/Documents/WebDevImmersive/Projects/Final/api/Gemfile",
-			"settings":
-			{
-				"buffer_size": 380,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "GA Final Push Origin",
 	"command_palette":
@@ -624,12 +616,17 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/jason/Documents/WebDevImmersive/Projects/Final/api"
+		"/Users/jason/Documents/WebDevImmersive/Projects/Final/lmsAPI"
 	],
 	"file_history":
 	[
-		"/Users/jason/Documents/WebDevImmersive/Projects/Final/docs/data-structures.txt",
+		"/Users/jason/Documents/WebDevImmersive/Projects/Final/lmsAPI/Gemfile",
+		"/Users/jason/Documents/WebDevImmersive/Projects/Final/lmsAPI/db/migrate/20141201215630_create_users.rb",
+		"/Users/jason/Documents/WebDevImmersive/Projects/Final/lmsAPI/config/application.rb",
+		"/Users/jason/Documents/WebDevImmersive/Projects/Final/lms-api/config/application.rb",
+		"/Users/jason/Documents/WebDevImmersive/Projects/Final/lms-api/db/migrate/20141201212842_create_users.rb",
 		"/Users/jason/Documents/WebDevImmersive/Projects/Final/api/Gemfile",
+		"/Users/jason/Documents/WebDevImmersive/Projects/Final/docs/data-structures.txt",
 		"/Users/jason/Documents/WebDevImmersive/Projects/Final/README.md",
 		"/Users/jason/Documents/WebDevImmersive/Projects/Final/TinCanJS/app/scripts/controllers/main.js",
 		"/Users/jason/Documents/WebDevImmersive/Projects/Final/TinCanJS/app/scripts/controllers/about.js",
@@ -750,12 +747,7 @@
 		"/Users/jason/Documents/WebDevImmersive/Projects/ngsandbox/app/scripts/controllers/main.js",
 		"/Users/jason/Documents/WebDevImmersive/Projects/ngsandbox/app/scripts/controllers/contact.js",
 		"/Users/jason/Documents/WebDevImmersive/Projects/ngsandbox/app/scripts/controllers/about.js",
-		"/Users/jason/Documents/WebDevImmersive/Projects/ngsandbox/app/views/footer.html",
-		"/Users/jason/Documents/WebDevImmersive/Projects/week8/ngrepo/demo7/index.html",
-		"/Users/jason/Documents/WebDevImmersive/Projects/week8/ngrepo/demo7/templates/home.html",
-		"/Users/jason/Documents/WebDevImmersive/Projects/week8/ngrepo/demo7/templates/about.html",
-		"/Users/jason/Documents/WebDevImmersive/Projects/ngsandbox/app/styles/main.scss",
-		"/Users/jason/Documents/UI/javascript/AngularJS-OReilly/index.html"
+		"/Users/jason/Documents/WebDevImmersive/Projects/ngsandbox/app/views/footer.html"
 	],
 	"find":
 	{
@@ -992,37 +984,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/jason/Documents/WebDevImmersive/Projects/Final/api/Gemfile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 380,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								110,
-								95
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -1203,7 +1166,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
